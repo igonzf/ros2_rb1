@@ -4,9 +4,11 @@ project(rb1_gazebo)
 
 find_package(ament_cmake REQUIRED)
 
+
 install(
-  DIRECTORY launch maps worlds config gui
+  DIRECTORY launch maps worlds config gui models src
   DESTINATION share/${PROJECT_NAME}
 )
+
 
 ament_package()
