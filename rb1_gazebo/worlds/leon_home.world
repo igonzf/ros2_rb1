@@ -88,7 +88,7 @@
             </visual>
         </link>
     </model>-->
-    <model name="mustard_bottle">
+    <!-- <model name="mustard_bottle">
       <pose>-2.326 -1.108 -0.018 0.046 0.03 0.33</pose> 
       <static>true</static>
       <link name="link">
@@ -110,7 +110,6 @@
             </mesh>
           </geometry>
         </collision>
-
         <visual name="visual">
           <geometry>
           	<mesh>
@@ -119,9 +118,43 @@
           </geometry>
         </visual>
       </link>
+    </model> -->
+
+    <model name="chair">
+      <pose>-2.2264 -1.1951 -0.0253 0.046 0.03 0.33</pose> 
+      <static>true</static>
+      <link name="link">
+        <inertial>
+          <inertia>
+           <ixx>1.6697164243557222e-06</ixx>
+           <ixy>-7.608043365683558e-23</ixy>
+           <ixz>-8.85497422500391e-24</ixz>
+           <iyy>1.454996005383364e-06</iyy>
+           <iyz>5.1836699346339805e-24</iyz>
+           <izz>4.2928863786736384e-07</izz>
+          </inertia>
+          <mass>0.0006120391571167176</mass>
+        </inertial>
+        <collision name="collision">
+          <geometry>
+          	<mesh>
+             <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/WoodenChair/meshes/WoodenChair.obj</uri>
+             <scale>0.5 0.5 0.5</scale>
+            </mesh>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+          	<mesh>
+            <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/WoodenChair/meshes/WoodenChair.obj</uri>
+            <scale>0.5 0.5 0.5</scale>
+	        </mesh>
+          </geometry>
+        </visual>
+      </link>
     </model>
-    <model name="orange">
-      <pose>-2.13 -0.98 -0.048 0.0 0.0 0.0</pose> 
+    <model name="ball">
+      <pose>-3.5848 -0.6283 0.1397 0.0 0.0 0.0</pose> 
       <static>true</static>
       <link name="link">
         <inertial>
@@ -138,7 +171,8 @@
         <collision name="collision">
           <geometry>
           	<mesh>
-             <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/Orange/textured.dae</uri>
+             <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/RoboCup 3D Simulation Ball/meshes/ball.dae</uri>
+             <scale>0.15 0.15 0.15</scale>
             </mesh>
           </geometry>
         </collision>
@@ -146,7 +180,8 @@
         <visual name="visual">
           <geometry>
           	<mesh>
-            <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/Orange/textured.dae</uri>
+            <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/RoboCup 3D Simulation Ball/meshes/ball.dae</uri>
+            <scale>0.15 0.15 0.15</scale>
 	        </mesh>
           </geometry>
         </visual>

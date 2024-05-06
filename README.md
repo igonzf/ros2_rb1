@@ -11,5 +11,5 @@ $ rosdep install --from-paths src --ignore-src -r -y
 ## Usage
 
 ```shell
-$ ros2 launch rb1_gazebo granny.launch.py
+$ ros2 launch rb1_gazebo leon_home.launch.py
 ```
