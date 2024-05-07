@@ -138,7 +138,7 @@
         <collision name="collision">
           <geometry>
           	<mesh>
-             <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/WoodenChair/meshes/WoodenChair.obj</uri>
+             <uri>../models/WoodenChair/meshes/WoodenChair.obj</uri>
              <scale>0.5 0.5 0.5</scale>
             </mesh>
           </geometry>
@@ -146,7 +146,7 @@
         <visual name="visual">
           <geometry>
           	<mesh>
-            <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/WoodenChair/meshes/WoodenChair.obj</uri>
+            <uri>../models/WoodenChair/meshes/WoodenChair.obj</uri>
             <scale>0.5 0.5 0.5</scale>
 	        </mesh>
           </geometry>
@@ -171,7 +171,7 @@
         <collision name="collision">
           <geometry>
           	<mesh>
-             <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/RoboCup 3D Simulation Ball/meshes/ball.dae</uri>
+             <uri>../models/Ball/meshes/ball.dae</uri>
              <scale>0.15 0.15 0.15</scale>
             </mesh>
           </geometry>
@@ -180,7 +180,7 @@
         <visual name="visual">
           <geometry>
           	<mesh>
-            <uri>file:///home/gentlebots/hri_ws/src/ros2_rb1/rb1_gazebo/models/RoboCup 3D Simulation Ball/meshes/ball.dae</uri>
+            <uri>../models/Ball/meshes/ball.dae</uri>
             <scale>0.15 0.15 0.15</scale>
 	        </mesh>
           </geometry>
